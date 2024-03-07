@@ -34,38 +34,28 @@ export default function Header() {
     </HeaderWrap>
   );
 }
-const HeaderWrap = styled.div` 
-  display: 'flex',
-  justifyContent: 'center',
-  height: '70px',
-  // borderBottom: '1px solid black',
-  margin: '0px 100px',
-  [theme.breakpoints.down('sm')]: {
-    display: 'none',
-  },
+const HeaderWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid black;
 `;
 
-const MenuBox = styled.div` 
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "flex-end",
-  fontSize: "1rem",
-  fontWeight: 700,
-  ":hover": {
-    color: "pink",
-  },
-  [theme.breakpoints.up("md")]: {
-    width: "65vw",
-    textAlign: "right",
-  },
+const MenuBox = styled.div`
+  display: flex;
+  alignitems: center;
+  justifycontent: flex-end;
+  font-size: 1.5rem;
+  fontweight: 700;
 `;
 
 const MenuBtn = styled.div` 
-  color: "#838383",
-  fontSize: "18px",
-  fontWeight: "700",
-  margin: "0rem 1rem 0rem 1rem",
-  padding: "0px 6px 0px 6px",
+  color: #838383;
+  fontSize: 18px;
+  font-weight: 700;
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 0px 6px 0px 6px;
   ":hover": {
     borderBottom: "1px solid #C4C4C4",
     backgroundColor: "transparent", //메뉴 호버했을때 투명 색상
