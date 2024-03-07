@@ -1,3 +1,20 @@
 body {
   margin: 0;
 }
+/* 가로모드 디바이스 지원 반응형 레이아웃 */
+/* 빅데스크탑 : 1800px~ */
+
+@media screen and (max-width: 1799px) {
+  /* 데스크탑 : 1200px ~ 1799px */
+}
+
+@media screen and (max-width: 1199px) {
+  /* 타블렛 가로 : 900px ~ 1199px */
+}
+@media screen and (max-width: 899px) {
+  /* 모바일 가로, 타블렛 세로 : 600px ~ 899px */
+}
+
+@media screen and (max-width: 599px) {
+  /* 모바일 세로 : 0px ~ 599px */
+}
